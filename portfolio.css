@@ -1,0 +1,51 @@
+@media only screen and (max-width: 600px) {
+
+}
+
+.top {
+    text-align: center;
+    padding: 2vw;
+    background-color: cyan;
+    font-size: 2vw;
+    font-family: fantasy;
+    border: double thick white;
+    
+}
+
+body {
+    background-color: black;
+    color: cyan;
+}
+
+#paragraph {
+    padding: 2vh;
+    overflow: visible;
+    width: 20vw;
+    height: 20vh;
+    margin: auto;
+    text-align: center;
+    font-size: 17px;
+}
+
+.about {
+    font-size: 20px;
+    text-emphasis: bold;
+    font-family: fantasy;
+    padding: 2vh;
+    text-align: center;
+}
+
+.portfolio {
+    font-size: 20px;
+    padding-top: 20vh;
+    font-family: fantasy;
+}
+
+.screenshot {
+    margin: auto;
+
+
+}
+
+
+
