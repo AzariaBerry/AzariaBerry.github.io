@@ -1,24 +1,29 @@
 @media only screen and (max-width: 600px) {
 
 }
+/*take the space from the top
+take the border of the header
+take off the font
+change font color 
+add more design*/
+
 
 .top {
-    text-align: center;
-    padding: 2vw;
-    background-color: cyan;
-    font-size: 2vw;
-    font-family: fantasy;
-    border: double thick white;
-    
+text-align: center;
+padding: 2vw;
+background-color: cyan;
+font-size: 2vw;
+font-family: sans-serif;
+
 }
 
 body {
     background-color: black;
     color: cyan;
+
 }
 
 #paragraph {
-    padding: 2vh;
     overflow: visible;
     width: 20vw;
     height: 20vh;
@@ -30,7 +35,7 @@ body {
 .about {
     font-size: 20px;
     text-emphasis: bold;
-    font-family: fantasy;
+    font-family: sans-serif;
     padding: 2vh;
     text-align: center;
 }
@@ -38,7 +43,8 @@ body {
 .portfolio {
     font-size: 20px;
     padding-top: 20vh;
-    font-family: fantasy;
+    font-family: sans-serif;
+
 }
 
 .screenshot {

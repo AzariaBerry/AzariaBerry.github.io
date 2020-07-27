@@ -1,0 +1,84 @@
+body {
+    background: #000000;
+    color: white;
+}
+/*rectangle 1, behind the header*/
+.rectangle {
+    position: relative;
+    width: 98vw;
+    height: 79px;
+    left: 7px;
+    top: 6px;
+    
+    background: #0DEDAA; 
+}
+/*header and rectangle*/
+.top {
+    position: absolute;
+    width: 85vw;
+    height: 60px;
+    left: 143px;
+    top: 11px;
+    background: #000000;
+    text-align: center;
+}
+/*github and codepen logos and images*/
+.github {
+    position: relative;
+    width: 36px;
+    height: 34px;
+}
+
+.codepen {
+    position: relative;
+    width: 39px;
+    height: 40px;
+}
+
+.skull {
+    position: absolute;
+    width: 136px;
+    height: 79px;
+    left: 0px;
+    top: 0px;
+}
+/*header links*/
+a:link, a:visited {
+    color: white;
+    text-decoration: none;
+    font-size: x-large;
+} 
+
+#paragraph {
+    overflow: visible;
+    width: 20vw;
+    height: 20vh;
+    margin: auto;
+    text-align: center;
+    font-size: 20px;
+    padding: 20vh;
+}
+
+.azaria {
+    position: relative;
+
+}
+
+#about {
+    font-size: 20px;
+    font-family: sans-serif;
+    padding: 2vh;
+    border: double #0DEDAA;
+    background: url(codes.jpg);
+}
+
+#portfolio {
+    border: double #0DEDAA;
+    font-size: 20px;
+    font-family: sans-serif;
+    padding: 2vh;
+}
+
+
+
+
