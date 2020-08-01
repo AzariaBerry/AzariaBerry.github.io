@@ -21,6 +21,7 @@ body {
     top: 11px;
     background: #000000;
     text-align: center;
+    padding-top: 2vh;
 }
 /*github and codepen logos and images*/
 .github {
@@ -50,15 +51,17 @@ a:link, a:visited {
 } 
 
 #paragraph {
+    grid-column-start: 1;
+    grid-column-end: 2;
 }
 
 #container {
-    text-align: center;
     overflow: visible;
     font-size: 20px;
     padding: 20vh;
     display: grid;
     grid-template-columns: 50% 50%;
+    text-align: center;
 
 }
 
@@ -70,16 +73,20 @@ a:link, a:visited {
 
 #about {
     font-size: 20px;
+    position: relative;
     font-family: sans-serif;
+    margin-top: 2vh;
     padding: 2vh;
     border: double #0DEDAA;
-    background: url(codes.jpg);
     grid-column-start: 1;
     grid-column-end: 2;
+    width: 25%;
+
 }
 
 #portfolio {
     border: double #0DEDAA;
+    width: 25%;
     font-size: 20px;
     font-family: sans-serif;
     padding: 2vh;
