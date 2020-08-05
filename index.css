@@ -84,6 +84,12 @@ a:link, a:visited {
 
 }
 
+.art{
+    grid-column-start: 2;
+    grid-row-start: 1;
+    width: 25%;
+}
+
 #portfolio {
     border: double #0DEDAA;
     width: 25%;
@@ -93,6 +99,7 @@ a:link, a:visited {
     grid-column-start: 2;
 
 }
+
 
 
 
