@@ -41,7 +41,8 @@ body {
     left: 13%;
     right: 13%;
     height: 100%;
-    animation: play 40s infinite;
+    animation: play 150s infinite;
+    animation-delay: -20s;
 }
 
 /*the different font sizes give it perspective*/
