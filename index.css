@@ -2,6 +2,10 @@ body {
     background: #000000;
     color: white;
 }
+
+p {
+    text-align: center;
+}
 /*rectangle 1, behind the header*/
 .rectangle {
     position: relative;
@@ -56,9 +60,10 @@ a:link, a:visited {
     overflow: visible;
     font-size: 20px;
     padding: 20vh;
-    text-align: center;
 
 }
+
+
 
 .azaria {
     position: relative;
@@ -74,7 +79,7 @@ a:link, a:visited {
     margin-top: 2vh;
     padding: 2vh;
     border: double #0DEDAA;
-    width: 25%;
+    width: 25vw;
 
 }
 
@@ -97,11 +102,15 @@ a:link, a:visited {
     text-align: center;
 }
 
-.work1:hover {
-        border: violet;
+p .projhead span{
+        min-height: 10em;
+        display: table-cell;
+        vertical-align: middle 
 }
 
-
+.screenshot:hover{
+    border: blueviolet;
+}
 
 
 
