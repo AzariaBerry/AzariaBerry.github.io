@@ -6,7 +6,7 @@
     box-sizing: border-box;
 }
 
-/*For new project animate background and add music*/
+/*For new project animate background*/
 
 body {
     background-image: url("planets.jpg");
@@ -62,6 +62,7 @@ h2{
 }
 
 p {
+    text-align: center;
     padding: 0.5rem 0;
 }
 
