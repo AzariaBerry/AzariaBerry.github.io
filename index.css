@@ -86,6 +86,7 @@ a:link, a:visited {
 .art{
     width: 150%;
     padding: 15%;
+    position: relative;
 }
 
 #Myfav {
@@ -102,14 +103,16 @@ a:link, a:visited {
     text-align: center;
 }
 
-p .projhead span{
-        min-height: 10em;
-        display: table-cell;
-        vertical-align: middle 
+p .projhead{
+        text-align: center;
 }
 
-.screenshot:hover{
-    border: blueviolet;
+.screenshot:hover {
+    border: 4px solid blueviolet;
+}
+
+#spongewars{
+    position: relative;
 }
 
 
