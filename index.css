@@ -115,7 +115,7 @@ p .projhead{
 }
 
 .screenshot{
-    border:8px solid transparent black;
+    border:8px solid black;
 }
 
 .screenshot:hover {
@@ -125,6 +125,14 @@ p .projhead{
 #spongewars{
     position: relative;
 }
+
+
+.footer {
+    background: blueviolet;
+    width: 20vw;
+
+}
+
 
 
 
