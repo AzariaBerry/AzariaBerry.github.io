@@ -94,6 +94,13 @@ a:link, a:visited {
     font-size: 20px;
     font-family: sans-serif;
     padding: 2vh, 1vw;
+    position: relative;
+}
+
+MyFav2 {
+    padding: 2vh;
+    position: relative;
+    
 }
 
 #secondcol {
