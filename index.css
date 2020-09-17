@@ -126,7 +126,7 @@ p .projhead{
     border: 8px solid black;
 }
 
-.rps :hover{
+.rps:hover{
     border: 8px solid orange;
 }
 
