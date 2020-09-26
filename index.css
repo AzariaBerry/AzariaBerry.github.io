@@ -89,7 +89,7 @@ a:link, a:visited {
     position: relative;
 }
 
-#Myfav {
+#MyFav {
     text-align: center;
     font-size: 20px;
     font-family: sans-serif;
@@ -126,9 +126,38 @@ p .projhead{
     border: 8px solid orange;
 }
 
-#spongewars{
+.spongewars{
     position: relative;
+    padding: 2vh, 1vw;
+    border: 8px solid black;
+
 }
+
+.spongewars:hover{
+    border: 8px solid yellow;
+}
+
+
+.animate{
+    padding: 2vh, 1vw;
+    position: relative;
+    border: 8px solid black;
+}
+
+.animate:hover{
+    border: 8px solid green;
+}
+
+.cloud{
+    padding: 2vh, 1vw;
+    position: relative;
+    border: 8px solid black;
+}
+
+.cloud:hover{
+    border: 8px solid blue;
+}
+
 
 
 #footer {
